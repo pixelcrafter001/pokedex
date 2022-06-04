@@ -1,0 +1,36 @@
+{
+"Typ": {
+  "normal": {
+    "schwach": "Kampf",
+    "immun": "Geist"
+  },
+  "water": {
+    "schwach": "Pflanze, Elektro",
+    "immun": "null"
+  },
+  "grass": {
+    "schwach": "Feuer, Eis, Gift, Flug, Käfer",
+    "immun": "null"
+  },
+  "psychic": {
+    "schwach": "Käfer, Geist, Unlicht",
+    "immun": "null"
+  },
+  "fire": {
+    "schwach": "Wasser, Boden, Gestein",
+    "immun": "null"
+  },
+  "electric": {
+    "schwach": "Boden",
+    "immun": "null"
+  },
+  "fighting": {
+    "schwach": "Flug, Psycho, Fee",
+    "immun": "null"
+  },
+  "normal+flying": {
+    "schwach": "Elektro, Eis, Gestein",
+    "immun": "Boden, Geist"
+  }
+ }
+}
