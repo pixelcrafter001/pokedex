@@ -1,4 +1,6 @@
 {
-"name": "Bisasam",
-"type": "Pflanze, Gift"
+"Pokemon": {
+  "Bisasam": "1",
+  "Bisaknosp": "2"
+ }
 }
