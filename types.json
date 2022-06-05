@@ -114,7 +114,831 @@
       "schwach": "Elektro, Kampf, Boden, PFLANZE",
       "ressi": "Normal, Eis, Gift, Flug, Feuer",
       "immun": "null"
+  },
+  "steel": {
+      "schwach": "Feuer, Kampf, Boden",
+      "ressi": "Normal, Pflanze, eis, Flug, Psycho, Käfer, Gestein, Drache, Stahl, Fee",
+      "immun": "Gift"
+  },
+  "rock+ground": {
+      "schwach": "Eis, Kampf, Boden, Stahl, PFLANZE, WASSER",
+      "ressi": "Normal, Feuer, Flug, Gestein, Gift",
+      "immun": "Elektro"
+  },
+  "ground+rock": {
+      "schwach": "Eis, Kampf, Boden, Stahl, PFLANZE, WASSER",
+      "ressi": "Normal, Feuer, Flug, Gestein, Gift",
+      "immun": "Elektro"
+  },
+  "psychic+flying": {
+      "schwach": "Elektro, Eis, Gestein, Geist, Unlicht",
+      "ressi": "Pflanze, Psycho, Kampf",
+      "immun": "Boden"
+  },
+  "water+ground": {
+      "schwach": "PFLANZE",
+      "ressi": "Feuer, Gift, Gestein, Stahl",
+      "immun": "Eletro"
+  },
+  "psychic+fairy": {
+      "schwach": "Gift, Geist, Gestein",
+      "ressi": "Psycho, Kampf",
+      "immun": "Drache"
+  },
+  "steel+psychic": {
+      "schwach": "Feuer, Boden, Geist, Unlicht",
+      "ressi": "Normal, Pflanze, Eis, Flug, Gestein, Drache, Stahl, Fee, Psycho",
+      "immun": "Gift"
+  },
+  "psychic+steel": {
+      "schwach": "Feuer, Boden, Geist, Unlicht",
+      "ressi": "Normal, Pflanze, Eis, Flug, Gestein, Drache, Stahl, Fee, Psycho",
+      "immun": "Gift"
+  },
+  "water+flying": {
+      "schwach": "Gestein, ELEKTRO",
+      "ressi": "Feuer, Wasser, Kampf, Käfer, Stahl",
+      "immun": "Boden"
+  },
+  "flying+water": {
+      "schwach": "Gestein, ELEKTRO",
+      "ressi": "Feuer, Wasser, Kampf, Käfer, Stahl",
+      "immun": "Boden"
+  },
+  "rock+steel": {
+      "schwach": "Wasser, KAMPF, BODEN",
+      "ressi": "Eis, Psycho, Käfer, Gestein, Drache, Fee, Normal, Flug",
+      "immun": "Psycho"
+  },
+  "steel+rock": {
+      "schwach": "Wasser, KAMPF, BODEN",
+      "ressi": "Eis, Psycho, Käfer, Gestein, Drache, Fee, Normal, Flug",
+      "immun": "Psycho"
+  },
+  "grass+flying": {
+      "schwach": "Feuer, Gift, Flug, Gestein, Eis",
+      "ressi": "Wasser, Kampf, Pflanze",
+      "immun": "Boden"
+  },
+  "water+ice": {
+      "schwach": "Pflanze, Elektro, Kampf, Gestein",
+      "ressi": "Wasser, Eis",
+      "immun": "null"
+  },
+  "ice+water": {
+      "schwach": "Pflanze, Elektro, Kampf, Gestein",
+      "ressi": "Wasser, Eis",
+      "immun": "null"
+  },
+  "poison+dark": {
+      "schwach": "Boden",
+      "ressi": "Pflanze, Gift, Geist, Unlicht",
+      "immun": "Psycho"
+  },
+  "ground+ghost": {
+      "schwach": "Pflanze, Wasser, Eis, Geist, Unlicht",
+      "ressi": "Käfer, Gestein, Gift",
+      "immun": "Normal, Elektro, Kampf"
+  },
+  "ghost+ground": {
+      "schwach": "Pflanze, Wasser, Eis, Geist, Unlicht",
+      "ressi": "Käfer, Gestein, Gift",
+      "immun": "Normal, Elektro, Kampf"
+  },
+  "dragon+flying": {
+      "schwach": "Gestein, Drache, Fee, EIS",
+      "ressi": "Feuer, Wasser, Kampf, Käfer, Pflanze",
+      "immun": "Boden"
+  },
+  "flying+dragon": {
+      "schwach": "Gestein, Drache, Fee, EIS",
+      "ressi": "Feuer, Wasser, Kampf, Käfer, Pflanze",
+      "immun": "Boden"
+  },
+  "fire+flying": {
+      "schwach": "Wasser, Elektro, GESTEIN",
+      "ressi": "Feuer, Kampf, Stahl, Fee, Pflanze, Käfer",
+      "immun": "Boden"
+  },
+  "fire+fighting": {
+      "schwach": "Wasser, Boden, Flug, Psycho",
+      "ressi": "Pflanze, Feuer, Eis, Unlicht, Stahl, Käfer",
+      "immun": "null"
+  },
+  "ghost+grass": {
+      "schwach": "Feuer, Eis, Flug, Geist, Unlicht",
+      "ressi": "Pflanze, Wasser, Elektro, Boden",
+      "immun": "Normal, Kampf"
+  },
+  "grass+ghost": {
+      "schwach": "Feuer, Eis, Flug, Geist, Unlicht",
+      "ressi": "Pflanze, Wasser, Elektro, Boden",
+      "immun": "Normal, Kampf"
+  },
+  "poison+water": {
+      "schwach": "Elektro, Boden, Psycho",
+      "ressi": "Feuer, Wasser, Eis, Kampf, Gift, Käfer, Stahl, Fee",
+      "immun": "null"
+  },
+  "water+poison": {
+      "schwach": "Elektro, Boden, Psycho",
+      "ressi": "Feuer, Wasser, Eis, Kampf, Gift, Käfer, Stahl, Fee",
+      "immun": "null"
+  },
+  "bug+rock": {
+      "schwach": "Wasser, Gestein, Stahl",
+      "ressi": "Normal, Gift",
+      "immun": "null"
+  },
+  "rock+bug": {
+      "schwach": "Wasser, Gestein, Stahl",
+      "ressi": "Normal, Gift",
+      "immun": "null"
+  },
+  "bug+grass": {
+      "schwach": "Eis, Gift, Käfer, Gestein, FEUER, FLUG",
+      "ressi": "Wasser, Elektro, Kampf, Pflanze, Boden",
+      "immun": "null"
+  },
+  "bug+steel": {
+      "schwach": "FEUER",
+      "ressi": "Normal, Eis, Psycho, Käfer, Drache, Stahl, Fee, Pflanze",
+      "immun": "Gift"
+  },
+  "dark+flying": {
+      "schwach": "Elektro, Eis, Gestein, Fee",
+      "ressi": "Pflanze, Geist, Unlicht",
+      "immun": "Boden, Psycho"
+  },
+  "ghost+fire": {
+      "schwach": "Wasser, Boden, Gestein, Geist, Unlicht",
+      "ressi": "Pflanze, Feuer, Eis, Gift, Stahl, Fee, Käfer",
+      "immun": "Normal, Kampf"
+  },
+  "fire+ghost": {
+      "schwach": "Wasser, Boden, Gestein, Geist, Unlicht",
+      "ressi": "Pflanze, Feuer, Eis, Gift, Stahl, Fee, Käfer",
+      "immun": "Normal, Kampf"
+  },
+  "water+dark": {
+      "schwach": "Pflanze, Elektro, Kampf, Käfer, Fee",
+      "ressi": "Feuer, Wasser, Eis, Geist, Unlicht, Stahl",
+      "immun": "Psycho"
+  },
+  "fire+rock": {
+      "schwach": "Kampf, Gestein, WASSER, BODEN",
+      "ressi": "Normal, Eis, Gift, Flug, Käfer, Fee, Feuer",
+      "immun": "null"
+  },
+  "rock+fire": {
+      "schwach": "Kampf, Gestein, WASSER, BODEN",
+      "ressi": "Normal, Eis, Gift, Flug, Käfer, Fee, Feuer",
+      "immun": "null"
+  },
+  "ground+steel": {
+      "schwach": "Feuer, Wasser, Kampf, Boden",
+      "ressi": "Normal, Flug, Psycho, Käfer, Drache, Stahl, Fee, Gestein",
+      "immun": "Elektro, Gift"
+  },
+  "steel+ground": {
+      "schwach": "Feuer, Wasser, Kampf, Boden",
+      "ressi": "Normal, Flug, Psycho, Käfer, Drache, Stahl, Fee, Gestein",
+      "immun": "Elektro, Gift"
+  },
+  "ice+psychic": {
+      "schwach": "Feuer, Käfer, Gestein, Geist, Unlicht, Stahl",
+      "ressi": "Eis, Psycho",
+      "immun": "null"
+  },
+  "psychic+ice": {
+      "schwach": "Feuer, Käfer, Gestein, Geist, Unlicht, Stahl",
+      "ressi": "Eis, Psycho",
+      "immun": "null"
+  },
+  "electric+flying": {
+      "schwach": "Eis, Gestein",
+      "ressi": "Pflanze, Kampf, Flug, Käfer, Stahl",
+      "immun": "Boden"
+  },
+  "bug+water": {
+      "schwach": "Elektro, Flug, Gestein",
+      "ressi": "Wasser, Eis, Kampf, Boden, Stahl",
+      "immun": "null"
+  },
+  "water+bug": {
+      "schwach": "Elektro, Flug, Gestein",
+      "ressi": "Wasser, Eis, Kampf, Boden, Stahl",
+      "immun": "null"
+  },
+  "normal+fairy": {
+      "schwach": "Gift, Stahl",
+      "ressi": "Käfer, Unlicht",
+      "immun": "Geist, Drache"
+  },
+  "normal+psychic": {
+      "schwach": "Käfer, Unlicht",
+      "ressi": "Psycho",
+      "immun": "Geist"
+  },
+  "psychic+normal": {
+      "schwach": "Käfer, Unlicht",
+      "ressi": "Psycho",
+      "immun": "Geist"
+  },
+  "grass+dragon": {
+      "schwach": "Gift, Flug, Käfer, Drache, Fee, EIS",
+      "ressi": "Boden, Pflanze, Wasser, Elektro",
+      "immun": "null"
+  },
+  "grass+fairy": {
+      "schwach": "Feuer, Eis, Flug, Stahl, GIFT",
+      "ressi": "Pflanze, Wasser, Elektro, Kampf, Boden, Unlicht",
+      "immun": "Drache"
+  },
+  "dark+normal": {
+      "schwach": "Käfer, Fee, KAMPF",
+      "ressi": "Unlicht",
+      "immun": "Psycho, Geist"
+  },
+  "water+psychic": {
+      "schwach": "Pflanze, elektro, Käfer, Geist, Unlicht",
+      "ressi": "Feuer, Wasser, Eis, Kampf, Psycho, Stahl",
+      "immun": "null"
+  },
+  "grass+fighting": {
+      "schwach": "Feuer, Eis, Gift, Psycho, Fee, FLUG",
+      "ressi": "Pflanze, Wasser, Elektro, Boden, Gestein, Unlicht",
+      "immun": "null"
+  },
+  "dragon+ghost": {
+      "schwach": "Eis, Geist, Drache, Unlicht, Fee",
+      "ressi": "Pflanze, Feuer, Wasser, Elektro, Gift, Käfer",
+      "immun": "Normal, Kampf"
+  },
+  "ghost+dragon": {
+      "schwach": "Eis, Geist, Drache, Unlicht, Fee",
+      "ressi": "Pflanze, Feuer, Wasser, Elektro, Gift, Käfer",
+      "immun": "Normal, Kampf"
+  },
+  "electric+steel": {
+      "schwach": "Feuer, Kampf, BODEN",
+      "ressi": "Normal, Pflanze, Elektro, eis, Psycho, Käfer, Gestein, Drache, Fee, Flug, Stahl",
+      "immun": "Gift"
+  },
+  "fire+bug": {
+      "schwach": "Wasser, Flug, GESTEIN",
+      "ressi": "Eis, Kampf, Käfer, Stahl, Fee, Pflanze",
+      "immun": "null"
+  },
+  "bug+fire": {
+      "schwach": "Wasser, Flug, GESTEIN",
+      "ressi": "Eis, Kampf, Käfer, Stahl, Fee, Pflanze",
+      "immun": "null"
+  },
+  "rock+flying": {
+      "schwach": "Wasser, Elektro, Eis, Gestein, Stahl",
+      "ressi": "Normal, Feuer, Gift, Flug, Käfer",
+      "immun": "Boden"
+  },
+  "fighting+psychic": {
+      "schwach": "Flug, Geist, Fee",
+      "ressi": "Kampf, Gestein",
+      "immun": "null"
+  },
+  "psychic+fighting": {
+      "schwach": "Flug, Geist, Fee",
+      "ressi": "Kampf, Gestein",
+      "immun": "null"
+  },
+  "fighting+dark": {
+      "schwach": "Kampf, Flug, FEE",
+      "ressi": "Gestein, Geist, Unlicht",
+      "immun": "Psycho"
+  },
+  "dark+fighting": {
+      "schwach": "Kampf, Flug, FEE",
+      "ressi": "Gestein, Geist, Unlicht",
+      "immun": "Psycho"
+  },
+  "bug+electric": {
+      "schwach": "Feuer, Gestein",
+      "ressi": "Pflanze, Elektro, Kampf, Stahl",
+      "immun": "null"
+  },
+  "normal+fighting": {
+      "schwach": "Kampf",
+      "ressi": "null",
+      "immun": "Geist"
+  },
+  "grass+psychic": {
+      "schwach": "Feuer, Eis, Gift, Flug, Geist, Unlicht, KÄFER",
+      "ressi": "Pflanze, Wasser, Elektro, Kampf, Boden, Psycho",
+      "immun": "null"
+  },
+  "psychic+grass": {
+      "schwach": "Feuer, Eis, Gift, Flug, Geist, Unlicht, KÄFER",
+      "ressi": "Pflanze, Wasser, Elektro, Kampf, Boden, Psycho",
+      "immun": "null"
+  },
+  "grass+dark": {
+      "schwach": "Feuer, Eis, Kampf, Gift, Flug, Fee, KÄFER",
+      "ressi": "Pflanze, Wasser, Elektro, Boden, Geist, Unlicht",
+      "immun": "Psycho"
+  },
+  "dark+grass": {
+      "schwach": "Feuer, Eis, Kampf, Gift, Flug, Fee, KÄFER",
+      "ressi": "Pflanze, Wasser, Elektro, Boden, Geist, Unlicht",
+      "immun": "Psycho"
+  },
+  "psychic+ghost": {
+      "schwach": "GEIST, UNLICHT",
+      "ressi": "Psycho, Gift",
+      "immun": "Normal, Kampf"
+  },
+  "steel+fairy": {
+      "schwach": "Feuer, Boden",
+      "ressi": "Normal, Pflanze, Eis, Flug, Psycho, Gestein, Unlicht, Fee, Käfer",
+      "immun": "Gift, Drache"
+  },
+  "fairy+steel": {
+      "schwach": "Feuer, Boden",
+      "ressi": "Normal, Pflanze, Eis, Flug, Psycho, Gestein, Unlicht, Fee, Käfer",
+      "immun": "Gift, Drache"
+  },
+  "dark+dragon": {
+      "schwach": "Eis, Kampf, Käfer, Drache, FEE",
+      "ressi": "Pflanze, Feuer, Wasser, Elektro, Geist, Unlicht",
+      "immun": "Psycho"
+  },
+  "water+fairy": {
+      "schwach": "Pflanze, Elektro, Gift",
+      "ressi": "Feuer, Wasser, Eis, Kampf, Käfer, Unlicht",
+      "immun": "Drache"
+  },
+  "poison+fighting": {
+      "schwach": "Boden, Flug, PSYCHO",
+      "ressi": "Pflanze, Kampf, Gift, Gestein, Unlicht, Käfer",
+      "immun": "null"
+  },
+  "steel+dragon": {
+      "schwach": "Kampf, Boden",
+      "ressi": "Normal, Wasser, elektro, Flug, Psycho, Käfer, Gestein, Stahl, Pflanze",
+      "immun": "Gift"
+  },
+  "ground+flying": {
+      "schwach": "Wasser, EIS",
+      "ressi": "Kampf, Gift, Käfer",
+      "immun": "Elektro, Boden"
+  },
+  "dragon+psychic": {
+      "schwach": "Eis, Käfer, Geist, Drache, Unlicht, Fee",
+      "ressi": "Pflanze, Feuer, Wasser, Elektro, Kampf, Psycho",
+      "immun": "Boden (Schwebe)"
+  },
+  "psychic+dragon": {
+      "schwach": "Eis, Käfer, Geist, Drache, Unlicht, Fee",
+      "ressi": "Pflanze, Feuer, Wasser, Elektro, Kampf, Psycho",
+      "immun": "Boden (Schwebe)"
+  },
+  "ice+ground": {
+      "schwach": "Pflanze, Feuer, Wasser, Kampf, Stahl",
+      "ressi": "Gift",
+      "immun": "Elektro"
+  },
+  "electric+dragon": {
+      "schwach": "Eis, Boden, Drache, Fee",
+      "ressi": "Pflanze, Feuer, Wasser, Flug, Stahl",
+      "immun": "null"
+  },
+  "dragon+electric": {
+      "schwach": "Eis, Boden, Drache, Fee",
+      "ressi": "Pflanze, Feuer, Wasser, Flug, Stahl",
+      "immun": "null"
+  },
+  "fire+ground": {
+      "schwach": "Boden, WASSER",
+      "ressi": "Feuer, Gift, Käfer, Stahl, Fee",
+      "immun": "Elektro"
+  },
+  "ground+fire": {
+      "schwach": "Boden, WASSER",
+      "ressi": "Feuer, Gift, Käfer, Stahl, Fee",
+      "immun": "Elektro"
+  },
+  "fire+dragon": {
+      "schwach": "Boden, Gestein, Drache",
+      "ressi": "Elektro, Käfer, Stahl, Pflanze, Feuer",
+      "immun": "null"
+  },
+  "dragon+fire": {
+      "schwach": "Boden, Gestein, Drache",
+      "ressi": "Elektro, Käfer, Stahl, Pflanze, Feuer",
+      "immun": "null"
+  },
+  "fire+psychic": {
+      "schwach": "Wasser, Boden, Gestein, Geist, Unlicht",
+      "ressi": "Pflanze, Feuer, Eis, Kampf, Psycho, Stahl, Fee",
+      "immun": "null"
+  },
+  "psychic+fire": {
+      "schwach": "Wasser, Boden, Gestein, Geist, Unlicht",
+      "ressi": "Pflanze, Feuer, Eis, Kampf, Psycho, Stahl, Fee",
+      "immun": "null"
+  },
+  "flying": {
+      "schwach": "Elektro, Eis, Gestein",
+      "ressi": "Pflanze, Kampf, Käfer",
+      "immun": "Boden"
+  },
+  "ghost+flying": {
+      "schwach": "Elektro, Eis, Gestein, Geist, Unlicht",
+      "ressi": "Pflanze, Gift, Käfer",
+      "immun": "Normal, Kampf, Boden"
+  },
+  "ghost+poison": {
+      "schwach": "Psycho, Geist, Unlicht",
+      "ressi": "Pflanze, Fee, Gift, Käfer",
+      "immun": "Normal, Kampf, Boden (Schwebe)"
+  },
+  "rock+electric": {
+      "schwach": "Pflanze, Wasser, Kampf, BODEN",
+      "ressi": "Normal, Feuer, Elektro, Gift, Flug",
+      "immun": "null"
+  },
+  "poison+flying": {
+      "schwach": "Elektro, Eis, Psycho, Gestein",
+      "ressi": "Gift, Fee, Pflanze, Kampf, Käfer",
+      "immun": "Boden"
+  },
+  "fighting+steel": {
+      "schwach": "Feuer, Kampf, Boden",
+      "ressi": "Normal, Pflanze, Eis, Drache, Unlicht, Stahl, Käfer, Gestein",
+      "immun": "Gift"
+  },
+  "steel+fighting": {
+      "schwach": "Feuer, Kampf, Boden",
+      "ressi": "Normal, Pflanze, Eis, Drache, Unlicht, Stahl, Käfer, Gestein",
+      "immun": "Gift"
+  },
+  "bug+fighting": {
+      "schwach": "Feuer, Psycho, Fee, FLUG",
+      "ressi": "Pflanze, Kampf, Boden, Käfer, Unlicht",
+      "immun": "null"
+  },
+  "poison+dragon": {
+      "schwach": "Eis, Boden, Psycho, Drache",
+      "ressi": "Feuer, Wasser, Elektro, Kampf, Gift, Käfer, Pflanze",
+      "immun": "null"
+  },
+  "grass+steel": {
+      "schwach": "Kampf, FEUER",
+      "ressi": "Normal, Wasser, Elektro, Psycho, Gestein, Drache, Stahl, Fee, Pflanze",
+      "immun": "Gift"
+  },
+  "steel+flying": {
+      "schwach": "Feuer, Elektro",
+      "ressi": "Normal, Flug, Psycho, Drache, Stahl, Fee, Pflanze, Käfer",
+      "immun": "Gift, Boden"
+  },
+  "flying+steel": {
+      "schwach": "Feuer, Elektro",
+      "ressi": "Normal, Flug, Psycho, Drache, Stahl, Fee, Pflanze, Käfer",
+      "immun": "Gift, Boden"
+  },
+  "steel+ghost": {
+      "schwach": "Feuer, Boden, Geist, Unlicht",
+      "ressi": "Pflanze, Eis, Flug, Psycho, Gestein, Drache, Stahl, Fee, Käfer",
+      "immun": "Normal, Kampf, Gift"
+  },
+  "dark+fairy": {
+      "schwach": "Gift, Stahl, Fee",
+      "ressi": "Geist, Unlicht",
+      "immun": "Psycho, Drache"
+  },
+  "dark+fire": {
+      "schwach": "Wasser, Kampf, Boden, Gestein",
+      "ressi": "Pflanze, Feuer, Eis, Geist, Unlicht, Stahl",
+      "immun": "Psycho"
+  },
+  "fire+dark": {
+      "schwach": "Wasser, Kampf, Boden, Gestein",
+      "ressi": "Pflanze, Feuer, Eis, Geist, Unlicht, Stahl",
+      "immun": "Psycho"
+  },
+  "dark+psychic": {
+      "schwach": "Fee, KÄFER",
+      "ressi": "null",
+      "immun": "Psycho"
+  },
+  "psychic+dark": {
+      "schwach": "Fee, KÄFER",
+      "ressi": "null",
+      "immun": "Psycho"
+  },
+  "water+dragon": {
+      "schwach": "Drache, Fee",
+      "ressi": "Stahl, Feuer, Wasser",
+      "immun": "null"
+  },
+  "water+electric": {
+      "schwach": "Pflanze, Boden",
+      "ressi": "Feuer, Wasser, Eis, Flug, Stahl",
+      "immun": "null"
+  },
+  "electric+water": {
+      "schwach": "Pflanze, Boden",
+      "ressi": "Feuer, Wasser, Eis, Flug, Stahl",
+      "immun": "null"
+  },
+  "water+ghost": {
+      "schwach": "Pflanze, Elektro, Geist, Unlicht",
+      "ressi": "Feuer, Wasser, Eis, Gift, Käfer, Stahl",
+      "immun": "Normal, Kampf"
+  },
+  "water+fighting": {
+      "schwach": "Pflanze, Elektro, Flug, Psycho, Fee",
+      "ressi": "Feuer, Wasser, Eis, Käfer, Gestein, Unlicht, Stahl",
+      "immun": "null"
+  },
+  "fighting+water": {
+      "schwach": "Pflanze, Elektro, Flug, Psycho, Fee",
+      "ressi": "Feuer, Wasser, Eis, Käfer, Gestein, Unlicht, Stahl",
+      "immun": "null"
+  },
+  "water+grass": {
+      "schwach": "Gift, Flug, Käfer",
+      "ressi": "Boden, Stahl, Wasser",
+      "immun": "null"
+  },
+  "electric+grass": {
+      "schwach": "Feuer, Eis, Gift, Käfer",
+      "ressi": "Pflanze, Wasser, Stahl, Elektro",
+      "immun": "Boden (Schwebe)"
+  },
+  "fairy+flying": {
+      "schwach": "Elektro, Eis, Gift, Gestein, Stahl",
+      "ressi": "Pflanze, Unlicht, Kampf, Käfer",
+      "immun": "Boden, Drache"
+  },
+  "rock+ice": {
+      "schwach": "Pflanze, Wasser, Boden, Gestein, KAMPF, STAHL",
+      "ressi": "Normal, Eis, Gift, Flug",
+      "immun": "null"
+  },
+  "ground+psychic": {
+      "schwach": "Pflanze, Wasser, Eis, Käfer, Geist, Unlicht",
+      "ressi": "Kampf, Gift, Psycho, Gestein",
+      "immun": "Elektro, Boden"
+  },
+  "dragon+fighting": {
+      "schwach": "Eis, Flug, Psycho, Drache, FEE",
+      "ressi": "Pflanze, Feuer, Wasser, Elektro, Käfer, Gestein, Unlicht",
+      "immun": "null"
+  },
+  "ice+flying": {
+      "schwach": "Feuer, Elektro, Stahl, GESTEIN",
+      "ressi": "Pflanze, Käfer",
+      "immun": "Boden"
+  },
+  "ice+bug": {
+      "schwach": "Flug, Stahl, FEUER, GESTEIN",
+      "ressi": "Pflanze, Eis, Boden",
+      "immun": "null"
+  },
+  "ice+steel": {
+      "schwach": "Boden, FEUER, KAMPF",
+      "ressi": "Normal, Pflanze, Flug, Psycho, Käfer, Drache, Fee, Eis",
+      "immun": "Gift"
+  },
+  "electric+ice": {
+      "schwach": "Feuer, Kampf, Boden, Gestein",
+      "ressi": "Elektro, Eis, Flug",
+      "immun": "null"
+  },
+  "electric+fairy": {
+      "schwach": "Gift, Boden",
+      "ressi": "Elektro, Kampf, Flug, Käfer, Unlicht",
+      "immun": "Drache"
+  },
+  "electric+poison": {
+      "schwach": "Psycho, BODEN",
+      "ressi": "Pflanze, Elektro, Kampf, Gift, Flug, Käfer, Stahl, Fee",
+      "immun": "null"
+  },
+  "electric+poison": {
+      "schwach": "Kampf, Boden",
+      "ressi": "Elektro, Flug, Stahl",
+      "immun": "Geist"
+  },
+  "fire+normal": {
+      "schwach": "Wasser, Kampf, Boden, Gestein",
+      "ressi": "Pflanze, Feuer, Eis, Käfer, Stahl, Fee",
+      "immun": "Geist"
+  },
+  "ghost+dark": {
+      "schwach": "Fee",
+      "ressi": "Gift",
+      "immun": "Normal, Kampf, Psycho"
+  },
+  "dark+ghost": {
+      "schwach": "Fee",
+      "ressi": "Gift",
+      "immun": "Normal, Kampf, Psycho"
+  },
+  "rock+dragon": {
+      "schwach": "Eis, Kampf, Boden, Drache, Stahl, Fee",
+      "ressi": "Normal, Elektro, Gift, Flug, Feuer",
+      "immun": "null"
+  },
+  "rock+fairy": {
+      "schwach": "Pflanze, Wasser, Boden, STAHL",
+      "ressi": "Normal, Feuer, Flug, Käfer, Unlicht",
+      "immun": "Drache"
+  },
+  "rock+grass": {
+      "schwach": "Eis, Kampf, Käfer, Stahl",
+      "ressi": "Normal, Elektro",
+      "immun": "null"
+  },
+  "rock+psychic": {
+      "schwach": "Pflanze, Wasser, Käfer, Geist, Unlicht, Stahl",
+      "ressi": "Normal, Feuer, Gift, Flug, Psycho",
+      "immun": "Boden (Schwebe)"
+  },
+  "poison+ground": {
+      "schwach": "Wasser, Eis, Boden, Psycho",
+      "ressi": "Kampf, Käfer, Gestein, Fee, Gift",
+      "immun": "Elektro"
+  },
+  "poison+fire": {
+      "schwach": "Wasser, Psycho, Gestein, BODEN",
+      "ressi": "Feuer, Eis, Kampf, Gift, Stahl, Pflanze, Käfer, Fee",
+      "immun": "null"
+  },
+  "poison+psychic": {
+      "schwach": "Boden, Geist, Unlicht",
+      "ressi": "Pflanze, Gift, Fee, Kampf",
+      "immun": "null"
+  },
+  "fighting+flying": {
+      "schwach": "Elektro, Eis, Flug, Psycho, Fee",
+      "ressi": "Pflanze, Kampf, Unlicht, Käfer",
+      "immun": "Boden"
+  },
+  "bug+ground": {
+      "schwach": "Feuer, Wasser, Eis, Flug",
+      "ressi": "Kampf, Gift, Boden",
+      "immun": "Elektro"
+  },
+  "bug+fairy": {
+      "schwach": "Feuer, Gift, Flug, Gestein, Stahl",
+      "ressi": "Pflanze, Boden, Käfer, Unlicht, Kampf",
+      "immun": "Drache"
+  },
+  "bug+psychic": {
+      "schwach": "Feuer, Flug, Käfer, Gestein, Geist, Unlicht",
+      "ressi": "Pflanze, Boden, Psycho, Kampf",
+      "immun": "null"
+  },
+  "normal+ghost": {
+      "schwach": "Unlicht",
+      "ressi": "Gift, Käfer",
+      "immun": "Normal, Kampf, Geist"
+  },
+  "normal+grass": {
+      "schwach": "Feuer, Eis, Kampf, Gift, Flug, Käfer",
+      "ressi": "Pflanze, Wasser, Elektro, Boden",
+      "immun": "Geist"
+  },
+  "grass+ice": {
+      "schwach": "Kampf, Gift, Flug, Käfer, Gestein, Stahl, FEUER",
+      "ressi": "Pflanze, Wasser, Elektro, Boden",
+      "immun": "null"
+  },
+  "dark+ice": {
+      "schwach": "Feuer, Käfer, Gestein, Stahl, Fee, KAMPF",
+      "ressi": "Eis, Geist, Unlicht",
+      "immun": "Psycho"
+  },
+  "dark+steel": {
+      "schwach": "Feuer, Boden, KAMPF",
+      "ressi": "Normal, Pflanze, Eis, Flug, Gestein, Geist, Drache, Unlicht, Stahl",
+      "immun": "Gift, Psycho"
+  },
+  "normal+ground": {
+      "schwach": "Pflanze, Wasser, Eis, Kampf",
+      "ressi": "Gift, Gestein",
+      "immun": "Elektro, Geist"
+  },
+  "ground+normal": {
+      "schwach": "Pflanze, Wasser, Eis, Kampf",
+      "ressi": "Gift, Gestein",
+      "immun": "Elektro, Geist"
+  },
+  "ground+steel": {
+      "schwach": "Feuer, Wasser, Kampf, Boden",
+      "ressi": "Normal, Flug, Psycho, Käfer, Drache, Stahl, Fee, Gestein",
+      "immun": "Elektro, Gift"
+  },
+  "dragon+ice": {
+      "schwach": "Kampf, Gestein, Drache, Stahl, Fee",
+      "ressi": "Pflanze, Wasser, Elektro",
+      "immun": "null"
+  },
+  "dragon+fairy": {
+      "schwach": "Eis, Gift, Stahl, Fee",
+      "ressi": "Pflanze, Feuer, Wasser, Elektro, Kampf, Käfer, Unlicht",
+      "immun": "Drache"
+  },
+  "ice+fairy": {
+      "schwach": "Feuer, Gift, Gestein, STAHL",
+      "ressi": "Eis, Käfer, Unlicht",
+      "immun": "Drache"
+  },
+  "ice+ghost": {
+      "schwach": "Feuer, Gestein, Geist, Unlicht, Stahl",
+      "ressi": "Eis, Gift, Käfer",
+      "immun": "Normal, Kampf"
+  },
+  "electric+fire": {
+      "schwach": "Wasser, Gestein",
+      "ressi": "Pflanze, Feuer, Elektro, Eis, Flug, Käfer, Fee, Stahl",
+      "immun": "BODEN (Schwebe)"
+  },
+  "electric+ghost": {
+      "schwach": "Geist, Unlicht",
+      "ressi": "Elektro, Gift, Flug, Käfer, Stahl",
+      "immun": "Normal, Kampf, Boden"
+  },
+  "electric+psychic": {
+      "schwach": "Boden, Käfer, Geist, Unlicht",
+      "ressi": "Elektro, Kampf, Flug, Psycho, Stahl",
+      "immun": "null"
+  },
+  "fire+steel": {
+      "schwach": "Wasser, Kampf, BODEN",
+      "ressi": "Normal, Flug, Psycho, Drache, Pflanze, Eis, Käfer, Stahl, Fee",
+      "immun": "Gift"
+  },
+  "fire+water": {
+      "schwach": "Elektro, Boden, Gestein",
+      "ressi": "Käfer, Fee, Feuer, Eis, Stahl",
+      "immun": "Wasser (H2O-Absorber)"
+  },
+  "ghost+fairy": {
+      "schwach": "Geist, Stahl",
+      "ressi": "Käfer",
+      "immun": "Normal, Kampf, Drache"
+  },
+  "rock+poison": {
+      "schwach": "Wasser, Psycho, Stahl, BODEN",
+      "ressi": "Normal, Feuer, Flug, Käfer, Fee, Gift",
+      "immun": "null"
+  },
+  "rock+fighting": {
+      "schwach": "Pflanze, Wasser, Kampf, Boden, Psycho, Stahl, Fee",
+      "ressi": "Normal, Feuer, Gift, Käfer, Gestein, Unlicht",
+      "immun": "null"
+  },
+  "rock+dark": {
+      "schwach": "Pflanze, Wasser, Boden, Käfer, Stahl, Fee, KAMPF",
+      "ressi": "Normal, Feuer, Gift, Flug, Geist, Unlicht",
+      "immun": "Psycho"
+  },
+  "fighting+ice": {
+      "schwach": "Feuer, Kampf, Flug, Psycho, Stahl, Fee",
+      "ressi": "Eis, Käfer, Unlicht",
+      "immun": "null"
+  },
+  "fighting+ghost": {
+      "schwach": "Flug, Psycho, Geist, Fee",
+      "ressi": "Gift, Gestein, Käfer",
+      "immun": "Normal, Kampf"
+  },
+  "bug+ghost": {
+      "schwach": "Feuer, Flug, Gestein, Geist, Unlicht",
+      "ressi": "Pflanze, Gift, Boden, Käfer",
+      "immun": "Normal, Kampf (Wunderwache ignoriert)"
+  },
+  "normal+dragon": {
+      "schwach": "Eis, Kampf, Drache, Fee",
+      "ressi": "Pflanze, Feuer, Wasser, Elektro",
+      "immun": "Geist"
+  },
+  "normal+water": {
+      "schwach": "Pflanze, Elektro, Kampf",
+      "ressi": "Feuer, Wasser, Eis, Stahl",
+      "immun": "Geist"
+  },
+  "grass+ground": {
+      "schwach": "Feuer, Flug, Käfer, EIS",
+      "ressi": "Boden, Gestein",
+      "immun": "Elektro"
+  },
+  "water+steel": {
+      "schwach": "Elektro, Kampf, Boden",
+      "ressi": "Normal, Wasser, Flug, Psycho, Käfer, Gestein, Drache, Fee, Eis, Stahl",
+      "immun": "Gift"
   }
-  
  }
 }
