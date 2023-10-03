@@ -1084,6 +1084,11 @@
       "schwach": "Feuer, Flug, Käfer, EIS",
       "ressi": "Boden, Gestein",
       "immun": "Elektro"
+  },
+  "poison+fairy": {
+      "schwach": "Boden, Stahl, Psycho",
+      "ressi": "KAMPF, KÄFER, Pflanze, Unlicht, Fee",
+      "immun": "Drache"
   }
  }
 }
